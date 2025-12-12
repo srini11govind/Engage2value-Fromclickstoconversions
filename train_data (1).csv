@@ -1,0 +1,11 @@
+"columns_to_drop=['device.screenResolution','screenSize','device.mobileDeviceBranding','device.mobileInputSelector','device.mobileDeviceMarketingName','device.operatingSystemVersion','device.flashVersion','geoNetwork.networkLocation','browserMajor','device.browserSize','socialEngagementType','locationZone','device.mobileDeviceModel','device.language','device.browserVersion','device.screenColors']",,,,,,,,,,,,,,,,,,,,16
+"columns_to_drop2 = ['trafficSource.keyword','geoNetwork.region','geoNetwork.city','geoNetwork.metro','trafficSource.referralPath','trafficSource']",,,,,,,,,,,,,,,,,,,,6
+"num_features=['sessionNumber','pageViews','totalHits','userId','sessionId','trafficSource.adwordsClickInfo.page','sessionStart']",,,,,,,,,,,,,,,,,,,,7
+"bool_features_F=['trafficSource.isTrueDirect','device.isMobile']",,,,,,,,,,,,,,,,,,,,2
+bool_features_T=['trafficSource.adwordsClickInfo.isVideoAd'],,,,,,,,,,,,,,,,,,,,1
+"bool_features_zero=['totals.bounces','new_visits','gclIdPresent','totals.visits']",,,,,,,,,,,,,,,,,,,,4
+"cat20_features=['trafficSource.adContent','trafficSource.campaign','geoNetwork.subContinent','locationCountry']",,,,,,,,,,,,,,,,,,,,4
+"cat2_features=['geoCluster','geoNetwork.networkDomain','trafficSource.medium','deviceType','trafficSource.adwordsClickInfo.slot','trafficSource.adwordsClickInfo.adNetworkType']",,,,,,,,,,,,,,,,,,,,6
+"cat10_features =['browser','os','userChannel','geoNetwork.continent']",,,,,,,,,,,,,,,,,,,,4
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,50
